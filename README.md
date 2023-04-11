@@ -1,49 +1,38 @@
-# Introducción a Python
+# Simulación de Plasma con el método Particle-in-Cell en 2.5 dimensiones
 
-Este repositorio contiene ejercicios y ejemplos de código para aprender los fundamentos del lenguaje de programación Python.
+Este repositorio contiene códigos Python y C++ para simular el comportamiento del plasma mediante el método Particle-in-Cell (PIC) en 2.5 dimensiones. Los códigos fueron diseñados para ser fácilmente modificables y escalables, permitiendo una gran flexibilidad en la simulación de diferentes escenarios.
 
 ## Contenido
 
-1. [Hola Mundo](01-holamundo)
-2. [Variables y Tipos de Datos](02_Variables_y_Tipos)
-3. [Operadores](03-Operadores)
-4. [Entrada y salida](04-Entrada-y-salida)
-5. [Condicionales](05-Condicionales)
-6. [Bucles](06-bucles)
-7. [Ejercicios Py](07-Ejercicios)
-8. [Funciones](08-Funciones)
-9. [Listas](09-listas)
-10. [Sets y Direccionarios](10-sets-diccionarios)
-11. [Ejercicios Py 2](11-ejercicios2)
-12. [Paquetes](12-paquetes)
-13. [Modulos](13-modulos)
-14. [Sistema Archivo](14-sistema-archivos)
-15. [Manejo Errores](15-manejo-errores)
-16. [Programación Orientado a clases](16-POO-clases)
-17. [Programación Orientado a clases constructor](17-POO-constructor)
-18. [Herencia](18-herencia)
+El repositorio cuenta con los siguientes archivos:
 
+- `pic_2.5D.py`: Código Python para la simulación del plasma mediante PIC en 2.5D.
+- `pic_2.5D.cpp`: Código C++ para la simulación del plasma mediante PIC en 2.5D.
+- `README.md`: Archivo que contiene información sobre el repositorio.
 
-*Nota: Actualiza esta lista según las carpetas y temas que hayas incluido en tu repositorio.*
+## Requerimientos
 
-## Requisitos
+Los códigos en Python y C++ requieren las siguientes bibliotecas y herramientas:
 
-Para ejecutar los ejercicios y ejemplos de código en este repositorio, necesitarás:
-
-- Python 3.x instalado en tu sistema. Puedes descargarlo desde la [página oficial de Python](https://www.python.org/downloads/).
+- Python 3
+- C++11
+- NumPy
+- Matplotlib
 
 ## Uso
 
-Para utilizar este repositorio:
+El código en Python se puede ejecutar con el comando:
 
-1. Clona el repositorio en tu máquina local o descarga los archivos como un archivo ZIP.
-2. Abre el archivo de código .py que desees probar en tu editor de código o IDE de Python favorito.
-3. Ejecuta el archivo de código .py.
+-python pic_2.5D.py
+
+Mientras que el código en C++ se puede compilar y ejecutar con los comandos:
+
+- g++ -o run.o main_serial.cpp
 
 ## Contribuciones
 
-Si deseas contribuir a este repositorio, no dudes en hacer un fork y enviar un pull request con tus cambios y mejoras. Asegúrate de incluir una descripción detallada de tus cambios y la razón de los mismos.
+Las contribuciones son bienvenidas y se pueden realizar mediante pull requests. Siéntete libre de reportar problemas o sugerir mejoras mediante issues.
 
 ## Licencia
 
-Este repositorio está bajo la licencia [MIT License](LICENSE). *Si es aplicable, de lo contrario, selecciona una licencia apropiada o indica que el contenido está en dominio público.*
+Este repositorio está bajo la licencia MIT.

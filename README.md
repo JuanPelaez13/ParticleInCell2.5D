@@ -1,4 +1,4 @@
-# Simulación de Plasma con el método Particle-in-Cell en 2.5 dimensiones
+# Simulación de Plasma con el método Particle-in-Cell 
 
 Este repositorio contiene códigos Python y C++ para simular el comportamiento del plasma mediante el método Particle-in-Cell (PIC) en 2.5 dimensiones. Los códigos fueron diseñados para ser fácilmente modificables y escalables, permitiendo una gran flexibilidad en la simulación de diferentes escenarios.
 
